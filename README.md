@@ -76,17 +76,31 @@ https://reachinbox-assignment-4rf9.onrender.com/api/mail/list/:email - GET reque
 
 
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/sendMail - POST request send mail with label.
+
+
+
 {
     "from":"sendersmail@gmail.com",
     "to":"recieversmail@gmail.com",
     "label":"interested/not-interested/more-information"
 }
+
+
+
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/sendone/:id - POST request to send a single mail for particular ID.
+
+
+
 {
     "from":"sendersmail@gmail.com",
     "to":"recieversmail@gmail.com"
 }
+
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/sendMultiple/:id - POST request to send a single mail for particular ID.
+
+
 {
    "from":"sendersmail@gmail.com",
    "to":["demo@gmail.com","demo@gmail.com", "demo@gmail.com"]
