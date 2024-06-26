@@ -48,12 +48,16 @@ Running the server
 
 
 To start the server, run the following command in your terminal
+
 npm start
+
+
 This will start the server at localhost:5000 (or whatever port you have specified). or we can use backend deployed link also.
 
 
 
 To start the worker.js file, run the following command in your terminal
+
 npm run server
 
 
@@ -61,10 +65,16 @@ npm run server
 API Endpoints
 For Google's OAuth2.0:
 https://reachinbox-assignment-4rf9.onrender.com/auth/google - GET for google authentication
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/userInfo/:email - GET request to view user profile
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/allDrafts/:email - GET request to view all drafts mail.
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/read/:email/message/:message - GET request to read a specific email(using id).
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/list/:email - GET request to get a list of mails.
+
+
 https://reachinbox-assignment-4rf9.onrender.com/api/mail/sendMail - POST request send mail with label.
 {
     "from":"sendersmail@gmail.com",
