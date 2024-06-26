@@ -32,7 +32,7 @@ ioredis
 Installation setup
 
 Clone the repository to your local machine
-git clone https://github.com/shraddha-gawde/reachInbox-assignment.git
+git clone https://github.com/yashasvi129/reachinbox_assignment.git
 
 
 Navigate to the root directory of the project directory :
